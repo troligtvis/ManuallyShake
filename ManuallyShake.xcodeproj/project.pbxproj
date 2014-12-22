@@ -86,6 +86,7 @@
 				2BEB8A941A484C72007BD889 /* Images.xcassets */,
 				2BEB8A961A484C72007BD889 /* LaunchScreen.xib */,
 				2BEB8A8B1A484C72007BD889 /* Supporting Files */,
+				2BEB8AAD1A4855C4007BD889 /* DetectShake.swift */,
 			);
 			path = ManuallyShake;
 			sourceTree = "<group>";
@@ -216,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BEB8A901A484C72007BD889 /* ViewController.swift in Sources */,
+				2BEB8AAE1A4855C4007BD889 /* DetectShake.swift in Sources */,
 				2BEB8A8E1A484C72007BD889 /* AppDelegate.swift in Sources */,
 				9F117E8E1A4850FC0062AEFF /* ShakeMotion.swift in Sources */,
 			);
