@@ -8,13 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController, ShakeMotionDeligate {
+
+    
+    var shake:ShakeMotion = ShakeMotion();
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        shake.deligate = self;
+        shake.startShake();
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    func shakeFound() {
+        println("SHAHAHJAKAKAKAKEKKEKEKKAKKEKKSKAS");
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

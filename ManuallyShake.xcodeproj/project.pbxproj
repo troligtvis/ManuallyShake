@@ -13,6 +13,7 @@
 		2BEB8A951A484C72007BD889 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB8A941A484C72007BD889 /* Images.xcassets */; };
 		2BEB8A981A484C72007BD889 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB8A961A484C72007BD889 /* LaunchScreen.xib */; };
 		2BEB8AA41A484C72007BD889 /* ManuallyShakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB8AA31A484C72007BD889 /* ManuallyShakeTests.swift */; };
+		9F117E8E1A4850FC0062AEFF /* ShakeMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F117E8D1A4850FC0062AEFF /* ShakeMotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2BEB8A9D1A484C72007BD889 /* ManuallyShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManuallyShakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEB8AA21A484C72007BD889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BEB8AA31A484C72007BD889 /* ManuallyShakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyShakeTests.swift; sourceTree = "<group>"; };
+		9F117E8D1A4850FC0062AEFF /* ShakeMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeMotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2BEB8A8A1A484C72007BD889 /* ManuallyShake */ = {
 			isa = PBXGroup;
 			children = (
+				9F117E8D1A4850FC0062AEFF /* ShakeMotion.swift */,
 				2BEB8A8D1A484C72007BD889 /* AppDelegate.swift */,
 				2BEB8A8F1A484C72007BD889 /* ViewController.swift */,
 				2BEB8A911A484C72007BD889 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				2BEB8A901A484C72007BD889 /* ViewController.swift in Sources */,
 				2BEB8A8E1A484C72007BD889 /* AppDelegate.swift in Sources */,
+				9F117E8E1A4850FC0062AEFF /* ShakeMotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				2BEB8AA91A484C72007BD889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BEB8AAA1A484C72007BD889 /* Build configuration list for PBXNativeTarget "ManuallyShakeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				2BEB8AAC1A484C72007BD889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
